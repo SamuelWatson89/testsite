@@ -1,0 +1,120 @@
+html {
+    scroll-behavior: smooth;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+    padding: 0;
+    font-size: 10px;
+    background-color: #98b6b6;
+}
+
+.btn-primary {
+    background: #427474;
+    border-color: #d5f1f1;
+}
+
+.btn-primary:hover {
+    background-color: #6fb4b4;
+    border-color: #6fb4b4;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show>.btn-primary.dropdown-toggle {
+    background-color: #427474;
+    border-color: #6fb4b4;
+}
+
+.btn-primary.focus,
+.btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(106, 158, 130, 0.5);
+}
+
+header {
+    background-color: white;
+}
+
+header .container-fluid {
+    padding: 0;
+}
+
+header .carousel-item {
+    max-height: 50vh;
+}
+
+
+header .carousel-caption h1,
+header .carousel-caption h2 {
+    font-size: 4rem;
+    text-shadow: .2px .2px .2px #333;
+}
+
+@media only screen and (max-width: 768px) {
+
+    header .carousel-caption h1,
+    header .carousel-caption h2 {
+        font-size: 2.4rem;
+    }
+}
+
+nav {
+    background: inherit;
+}
+
+nav a {
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-brand {
+    color: rgb(255, 255, 255);
+}
+
+section {
+    padding: 25px 0 25px 0;
+}
+
+#news {
+    background: #d5f1f1;
+}
+
+section .card-footer {
+    background: #98b6b6;
+    border: none;
+}
+
+section p {
+    line-height: 2;
+    font-size: 1.1rem;
+}
+
+.card {
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.card .text-white {
+    text-shadow: .7px .7px 1.5px rgba(0, 0, 0, 0.493);
+}
+
+section label {
+    font-size: 1.1rem;
+}
+
+.bg-bread {
+    background-color: #d5f1f1;
+}
+
+footer {
+    background: #333;
+    padding: 10px;
+}
+
+#nameInputForm,
+#signUpForm {
+    transition: .2s linear;
+}
